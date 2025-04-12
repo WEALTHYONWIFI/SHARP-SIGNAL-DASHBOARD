@@ -5,7 +5,7 @@ export default function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("https://603e-35-222-7-153.ngrok-free.app/sharp-signals")
+    fetchfetch("https://779f-35-222-7-153.ngrok-free.app/sharp-signals")
       .then(res => res.json())
       .then(setData)
       .catch(console.error);
